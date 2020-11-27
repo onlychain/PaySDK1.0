@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB0A3592536F78E0095C8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0A3582536F78E0095C8E4 /* AppDelegate.swift */; };
+		1AB0A35D2536F78E0095C8E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0A35C2536F78E0095C8E4 /* ViewController.swift */; };
+		1AB0A3622536F7910095C8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB0A3612536F7910095C8E4 /* Assets.xcassets */; };
+		1AB0A3652536F7910095C8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB0A3632536F7910095C8E4 /* LaunchScreen.storyboard */; };
+		1AB0A3702536F7910095C8E4 /* OCTokenSDKDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0A36F2536F7910095C8E4 /* OCTokenSDKDemoTests.swift */; };
+		1AB0A37B2536F7910095C8E4 /* OCTokenSDKDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0A37A2536F7910095C8E4 /* OCTokenSDKDemoUITests.swift */; };
+		1ABA7280255398EC008FDDD1 /* OCTokenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ABA727F255398EC008FDDD1 /* OCTokenSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB0A36C2536F7910095C8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB0A34D2536F78E0095C8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB0A3542536F78E0095C8E4;
+			remoteInfo = OCTokenSDKDemo;
+		};
+		1AB0A3772536F7910095C8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB0A34D2536F78E0095C8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB0A3542536F78E0095C8E4;
+			remoteInfo = OCTokenSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AB0A3A02536F9990095C8E4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AB0A3552536F78E0095C8E4 /* OCTokenSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCTokenSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB0A3582536F78E0095C8E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AB0A35C2536F78E0095C8E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AB0A3612536F7910095C8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AB0A3642536F7910095C8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AB0A3662536F7910095C8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB0A36B2536F7910095C8E4 /* OCTokenSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCTokenSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB0A36F2536F7910095C8E4 /* OCTokenSDKDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCTokenSDKDemoTests.swift; sourceTree = "<group>"; };
+		1AB0A3712536F7910095C8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB0A3762536F7910095C8E4 /* OCTokenSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCTokenSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB0A37A2536F7910095C8E4 /* OCTokenSDKDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCTokenSDKDemoUITests.swift; sourceTree = "<group>"; };
+		1AB0A37C2536F7910095C8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABA727F255398EC008FDDD1 /* OCTokenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCTokenSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB0A3522536F78E0095C8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABA7280255398EC008FDDD1 /* OCTokenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB0A3682536F7910095C8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB0A3732536F7910095C8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB0A34C2536F78E0095C8E4 = {
+			isa = PBXGroup;
+			children = (
+				1AB0A3572536F78E0095C8E4 /* OCTokenSDKDemo */,
+				1AB0A36E2536F7910095C8E4 /* OCTokenSDKDemoTests */,
+				1AB0A3792536F7910095C8E4 /* OCTokenSDKDemoUITests */,
+				1AB0A3562536F78E0095C8E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB0A3562536F78E0095C8E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0A3552536F78E0095C8E4 /* OCTokenSDKDemo.app */,
+				1AB0A36B2536F7910095C8E4 /* OCTokenSDKDemoTests.xctest */,
+				1AB0A3762536F7910095C8E4 /* OCTokenSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB0A3572536F78E0095C8E4 /* OCTokenSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1ABA727F255398EC008FDDD1 /* OCTokenSDK.framework */,
+				1AB0A3582536F78E0095C8E4 /* AppDelegate.swift */,
+				1AB0A35C2536F78E0095C8E4 /* ViewController.swift */,
+				1AB0A3612536F7910095C8E4 /* Assets.xcassets */,
+				1AB0A3632536F7910095C8E4 /* LaunchScreen.storyboard */,
+				1AB0A3662536F7910095C8E4 /* Info.plist */,
+			);
+			path = OCTokenSDKDemo;
+			sourceTree = "<group>";
+		};
+		1AB0A36E2536F7910095C8E4 /* OCTokenSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0A36F2536F7910095C8E4 /* OCTokenSDKDemoTests.swift */,
+				1AB0A3712536F7910095C8E4 /* Info.plist */,
+			);
+			path = OCTokenSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		1AB0A3792536F7910095C8E4 /* OCTokenSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0A37A2536F7910095C8E4 /* OCTokenSDKDemoUITests.swift */,
+				1AB0A37C2536F7910095C8E4 /* Info.plist */,
+			);
+			path = OCTokenSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB0A3542536F78E0095C8E4 /* OCTokenSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB0A37F2536F7910095C8E4 /* Build configuration list for PBXNativeTarget "OCTokenSDKDemo" */;
+			buildPhases = (
+				1AB0A3512536F78E0095C8E4 /* Sources */,
+				1AB0A3522536F78E0095C8E4 /* Frameworks */,
+				1AB0A3532536F78E0095C8E4 /* Resources */,
+				1AB0A3A02536F9990095C8E4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCTokenSDKDemo;
+			productName = OCTokenSDKDemo;
+			productReference = 1AB0A3552536F78E0095C8E4 /* OCTokenSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB0A36A2536F7910095C8E4 /* OCTokenSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB0A3822536F7910095C8E4 /* Build configuration list for PBXNativeTarget "OCTokenSDKDemoTests" */;
+			buildPhases = (
+				1AB0A3672536F7910095C8E4 /* Sources */,
+				1AB0A3682536F7910095C8E4 /* Frameworks */,
+				1AB0A3692536F7910095C8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB0A36D2536F7910095C8E4 /* PBXTargetDependency */,
+			);
+			name = OCTokenSDKDemoTests;
+			productName = OCTokenSDKDemoTests;
+			productReference = 1AB0A36B2536F7910095C8E4 /* OCTokenSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AB0A3752536F7910095C8E4 /* OCTokenSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB0A3852536F7910095C8E4 /* Build configuration list for PBXNativeTarget "OCTokenSDKDemoUITests" */;
+			buildPhases = (
+				1AB0A3722536F7910095C8E4 /* Sources */,
+				1AB0A3732536F7910095C8E4 /* Frameworks */,
+				1AB0A3742536F7910095C8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB0A3782536F7910095C8E4 /* PBXTargetDependency */,
+			);
+			name = OCTokenSDKDemoUITests;
+			productName = OCTokenSDKDemoUITests;
+			productReference = 1AB0A3762536F7910095C8E4 /* OCTokenSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB0A34D2536F78E0095C8E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1AB0A3542536F78E0095C8E4 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+					1AB0A36A2536F7910095C8E4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1AB0A3542536F78E0095C8E4;
+					};
+					1AB0A3752536F7910095C8E4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1AB0A3542536F78E0095C8E4;
+					};
+				};
+			};
+			buildConfigurationList = 1AB0A3502536F78E0095C8E4 /* Build configuration list for PBXProject "OCTokenSDKDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB0A34C2536F78E0095C8E4;
+			productRefGroup = 1AB0A3562536F78E0095C8E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB0A3542536F78E0095C8E4 /* OCTokenSDKDemo */,
+				1AB0A36A2536F7910095C8E4 /* OCTokenSDKDemoTests */,
+				1AB0A3752536F7910095C8E4 /* OCTokenSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB0A3532536F78E0095C8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB0A3652536F7910095C8E4 /* LaunchScreen.storyboard in Resources */,
+				1AB0A3622536F7910095C8E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB0A3692536F7910095C8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB0A3742536F7910095C8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB0A3512536F78E0095C8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB0A35D2536F78E0095C8E4 /* ViewController.swift in Sources */,
+				1AB0A3592536F78E0095C8E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB0A3672536F7910095C8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB0A3702536F7910095C8E4 /* OCTokenSDKDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB0A3722536F7910095C8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB0A37B2536F7910095C8E4 /* OCTokenSDKDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB0A36D2536F7910095C8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB0A3542536F78E0095C8E4 /* OCTokenSDKDemo */;
+			targetProxy = 1AB0A36C2536F7910095C8E4 /* PBXContainerItemProxy */;
+		};
+		1AB0A3782536F7910095C8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB0A3542536F78E0095C8E4 /* OCTokenSDKDemo */;
+			targetProxy = 1AB0A3772536F7910095C8E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AB0A3632536F7910095C8E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AB0A3642536F7910095C8E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AB0A37D2536F7910095C8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AB0A37E2536F7910095C8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB0A3802536F7910095C8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCTokenSDKDemo",
+				);
+				INFOPLIST_FILE = OCTokenSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCToken.OCTokenSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB0A3812536F7910095C8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCTokenSDKDemo",
+				);
+				INFOPLIST_FILE = OCTokenSDKDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCToken.OCTokenSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AB0A3832536F7910095C8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCTokenSDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCToken.OCTokenSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCTokenSDKDemo.app/OCTokenSDKDemo";
+			};
+			name = Debug;
+		};
+		1AB0A3842536F7910095C8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCTokenSDKDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCToken.OCTokenSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCTokenSDKDemo.app/OCTokenSDKDemo";
+			};
+			name = Release;
+		};
+		1AB0A3862536F7910095C8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCTokenSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCToken.OCTokenSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCTokenSDKDemo;
+			};
+			name = Debug;
+		};
+		1AB0A3872536F7910095C8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCTokenSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCToken.OCTokenSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCTokenSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB0A3502536F78E0095C8E4 /* Build configuration list for PBXProject "OCTokenSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB0A37D2536F7910095C8E4 /* Debug */,
+				1AB0A37E2536F7910095C8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB0A37F2536F7910095C8E4 /* Build configuration list for PBXNativeTarget "OCTokenSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB0A3802536F7910095C8E4 /* Debug */,
+				1AB0A3812536F7910095C8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB0A3822536F7910095C8E4 /* Build configuration list for PBXNativeTarget "OCTokenSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB0A3832536F7910095C8E4 /* Debug */,
+				1AB0A3842536F7910095C8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB0A3852536F7910095C8E4 /* Build configuration list for PBXNativeTarget "OCTokenSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB0A3862536F7910095C8E4 /* Debug */,
+				1AB0A3872536F7910095C8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB0A34D2536F78E0095C8E4 /* Project object */;
+}

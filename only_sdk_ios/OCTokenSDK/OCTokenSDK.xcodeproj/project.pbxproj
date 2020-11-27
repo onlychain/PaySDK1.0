@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1AB0A2622536A14A0095C8E4 /* OCTokenSDKAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1AB0A2632536A14A0095C8E4 /* Build configuration list for PBXAggregateTarget "OCTokenSDKAggregate" */;
+			buildPhases = (
+				1AB0A2692536A1620095C8E4 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = OCTokenSDKAggregate;
+			productName = OCTokenSDKAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1AB0A2472536969D0095C8E4 /* OCTokenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB0A23D2536969D0095C8E4 /* OCTokenSDK.framework */; };
+		1AB0A24C2536969D0095C8E4 /* OCTokenSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0A24B2536969D0095C8E4 /* OCTokenSDKTests.m */; };
+		1AB0A24E2536969D0095C8E4 /* OCTokenSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB0A2402536969D0095C8E4 /* OCTokenSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB0A25C2536A0390095C8E4 /* OCTokenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB0A25A2536A0390095C8E4 /* OCTokenManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB0A25D2536A0390095C8E4 /* OCTokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB0A25B2536A0390095C8E4 /* OCTokenManager.m */; };
+		1AC5DDCA253847A0006250AD /* OCTokenConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC5DDC8253847A0006250AD /* OCTokenConfigure.h */; };
+		1AC5DDCB253847A0006250AD /* OCTokenConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5DDC9253847A0006250AD /* OCTokenConfigure.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB0A2482536969D0095C8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB0A2342536969D0095C8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB0A23C2536969D0095C8E4;
+			remoteInfo = OCTokenSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB0A23D2536969D0095C8E4 /* OCTokenSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCTokenSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB0A2402536969D0095C8E4 /* OCTokenSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTokenSDK.h; sourceTree = "<group>"; };
+		1AB0A2412536969D0095C8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB0A2462536969D0095C8E4 /* OCTokenSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCTokenSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB0A24B2536969D0095C8E4 /* OCTokenSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTokenSDKTests.m; sourceTree = "<group>"; };
+		1AB0A24D2536969D0095C8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB0A25A2536A0390095C8E4 /* OCTokenManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTokenManager.h; sourceTree = "<group>"; };
+		1AB0A25B2536A0390095C8E4 /* OCTokenManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTokenManager.m; sourceTree = "<group>"; };
+		1AC5DDC8253847A0006250AD /* OCTokenConfigure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTokenConfigure.h; sourceTree = "<group>"; };
+		1AC5DDC9253847A0006250AD /* OCTokenConfigure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTokenConfigure.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB0A23A2536969D0095C8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB0A2432536969D0095C8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB0A2472536969D0095C8E4 /* OCTokenSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB0A2332536969D0095C8E4 = {
+			isa = PBXGroup;
+			children = (
+				1AB0A23F2536969D0095C8E4 /* OCTokenSDK */,
+				1AB0A24A2536969D0095C8E4 /* OCTokenSDKTests */,
+				1AB0A23E2536969D0095C8E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB0A23E2536969D0095C8E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0A23D2536969D0095C8E4 /* OCTokenSDK.framework */,
+				1AB0A2462536969D0095C8E4 /* OCTokenSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AB0A23F2536969D0095C8E4 /* OCTokenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0A25925369FFC0095C8E4 /* Manager */,
+				1AB0A2402536969D0095C8E4 /* OCTokenSDK.h */,
+				1AB0A2412536969D0095C8E4 /* Info.plist */,
+			);
+			path = OCTokenSDK;
+			sourceTree = "<group>";
+		};
+		1AB0A24A2536969D0095C8E4 /* OCTokenSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0A24B2536969D0095C8E4 /* OCTokenSDKTests.m */,
+				1AB0A24D2536969D0095C8E4 /* Info.plist */,
+			);
+			path = OCTokenSDKTests;
+			sourceTree = "<group>";
+		};
+		1AB0A25925369FFC0095C8E4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1AB0A25A2536A0390095C8E4 /* OCTokenManager.h */,
+				1AB0A25B2536A0390095C8E4 /* OCTokenManager.m */,
+				1AC5DDC8253847A0006250AD /* OCTokenConfigure.h */,
+				1AC5DDC9253847A0006250AD /* OCTokenConfigure.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AB0A2382536969D0095C8E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB0A25C2536A0390095C8E4 /* OCTokenManager.h in Headers */,
+				1AB0A24E2536969D0095C8E4 /* OCTokenSDK.h in Headers */,
+				1AC5DDCA253847A0006250AD /* OCTokenConfigure.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AB0A23C2536969D0095C8E4 /* OCTokenSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB0A2512536969D0095C8E4 /* Build configuration list for PBXNativeTarget "OCTokenSDK" */;
+			buildPhases = (
+				1AB0A2382536969D0095C8E4 /* Headers */,
+				1AB0A2392536969D0095C8E4 /* Sources */,
+				1AB0A23A2536969D0095C8E4 /* Frameworks */,
+				1AB0A23B2536969D0095C8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCTokenSDK;
+			productName = OCTokenSDK;
+			productReference = 1AB0A23D2536969D0095C8E4 /* OCTokenSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1AB0A2452536969D0095C8E4 /* OCTokenSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB0A2542536969D0095C8E4 /* Build configuration list for PBXNativeTarget "OCTokenSDKTests" */;
+			buildPhases = (
+				1AB0A2422536969D0095C8E4 /* Sources */,
+				1AB0A2432536969D0095C8E4 /* Frameworks */,
+				1AB0A2442536969D0095C8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB0A2492536969D0095C8E4 /* PBXTargetDependency */,
+			);
+			name = OCTokenSDKTests;
+			productName = OCTokenSDKTests;
+			productReference = 1AB0A2462536969D0095C8E4 /* OCTokenSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB0A2342536969D0095C8E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1AB0A23C2536969D0095C8E4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					1AB0A2452536969D0095C8E4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					1AB0A2622536A14A0095C8E4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 1AB0A2372536969D0095C8E4 /* Build configuration list for PBXProject "OCTokenSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB0A2332536969D0095C8E4;
+			productRefGroup = 1AB0A23E2536969D0095C8E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB0A23C2536969D0095C8E4 /* OCTokenSDK */,
+				1AB0A2452536969D0095C8E4 /* OCTokenSDKTests */,
+				1AB0A2622536A14A0095C8E4 /* OCTokenSDKAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB0A23B2536969D0095C8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB0A2442536969D0095C8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AB0A2692536A1620095C8E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#要build的target名\nTARGET_NAME=${PROJECT_NAME}\nif [[ $1 ]]\nthen\nTARGET_NAME=$1\nfi\nUNIVERSAL_OUTPUT_FOLDER=\"${SRCROOT}/${PROJECT_NAME}_Products/\"\n\n#创建输出目录，并删除之前的framework文件\nmkdir -p \"${UNIVERSAL_OUTPUT_FOLDER}\"\nrm -rf \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework\"\n\n#分别编译模拟器和真机的Framework\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos -arch arm64e -arch armv7 -arch arm64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n#拷贝framework到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework\" \"${UNIVERSAL_OUTPUT_FOLDER}\"\n\n#合并framework，输出最终的framework到build目录\nlipo -create -output \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework/${TARGET_NAME}\"\n\n#删除编译之后生成的无关的配置文件\ndir_path=\"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/\"\nfor file in ls $dir_path\ndo\nif [[ ${file} =~ \".xcconfig\" ]]\nthen\nrm -f \"${dir_path}/${file}\"\nfi\ndone\n#判断build文件夹是否存在，存在则删除\nif [ -d \"${SRCROOT}/build\" ]\nthen\nrm -rf \"${SRCROOT}/build\"\nfi\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\n#打开合并后的文件夹\nopen \"${UNIVERSAL_OUTPUT_FOLDER}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB0A2392536969D0095C8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC5DDCB253847A0006250AD /* OCTokenConfigure.m in Sources */,
+				1AB0A25D2536A0390095C8E4 /* OCTokenManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB0A2422536969D0095C8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB0A24C2536969D0095C8E4 /* OCTokenSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB0A2492536969D0095C8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB0A23C2536969D0095C8E4 /* OCTokenSDK */;
+			targetProxy = 1AB0A2482536969D0095C8E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AB0A24F2536969D0095C8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1AB0A2502536969D0095C8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACH_O_TYPE = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AB0A2522536969D0095C8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OCTokenSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCToken.OCTokenSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB0A2532536969D0095C8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OCTokenSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCToken.OCTokenSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AB0A2552536969D0095C8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCTokenSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCToken.OCTokenSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB0A2562536969D0095C8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCTokenSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.OCToken.OCTokenSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AB0A2642536A14A0095C8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACH_O_TYPE = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AB0A2652536A14A0095C8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACH_O_TYPE = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB0A2372536969D0095C8E4 /* Build configuration list for PBXProject "OCTokenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB0A24F2536969D0095C8E4 /* Debug */,
+				1AB0A2502536969D0095C8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB0A2512536969D0095C8E4 /* Build configuration list for PBXNativeTarget "OCTokenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB0A2522536969D0095C8E4 /* Debug */,
+				1AB0A2532536969D0095C8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB0A2542536969D0095C8E4 /* Build configuration list for PBXNativeTarget "OCTokenSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB0A2552536969D0095C8E4 /* Debug */,
+				1AB0A2562536969D0095C8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB0A2632536A14A0095C8E4 /* Build configuration list for PBXAggregateTarget "OCTokenSDKAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB0A2642536A14A0095C8E4 /* Debug */,
+				1AB0A2652536A14A0095C8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB0A2342536969D0095C8E4 /* Project object */;
+}

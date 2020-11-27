@@ -1,0 +1,6 @@
+framework module OCTokenSDK {
+  umbrella header "OCTokenSDK.h"
+
+  export *
+  module * { export * }
+}

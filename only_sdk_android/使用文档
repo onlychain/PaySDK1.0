@@ -1,0 +1,64 @@
+主工具类
+AuthBiz
+
+1)构造方法
+ public AuthBiz(Activity activity)
+
+2)
+/**
+ * 申请授权
+ * @param logoIcon 应用在服务端注册的 logo 图片URL
+ * @param appName   应用名
+ */
+public void auth(String logoIcon,String appName)
+
+
+
+3)返回数据 使用 onActivityResult 接收
+@Override
+protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data)
+
+结果码 	resultCode == RESULT_OK（-1）成功
+		resultCode == RESULT_CANCELED（0）用户取消
+		resultCode 其余值都为失败
+
+返回值（仅在成功时），请自行持久化
+授权用户钱包地址
+data.getStringExtra("address");
+授权用户钱包名称
+data.getStringExtra("walletName");
+授权时间戳
+data.getStringExtra("timeStamp");
+签名
+data.getStringExtra("sign");(签名内容是使用"{address},{timestamp}")
+公钥
+data.getStringExtra("publicKey");
+
+
+
+4)
+/**
+ * 充值
+ * @param walletName    充值钱包名称
+ * @param address       充值钱包地址
+ * @param value         充值 数量
+ * @param details       充值说明
+ */
+public void recharge(String walletName,String address,double value,String details)
+
+结果码 	resultCode == RESULT_OK（-1）成功
+		resultCode == RESULT_CANCELED（0）用户取消
+		resultCode 其余值都为失败
+
+返回值（仅在成功时），请立即使用，几十秒后会失效
+充值签名（已解密，JSON格式）
+data.getStringExtra("action");
+
+5)
+/**
+ * 认证
+ * @param walletName
+ * @param address
+ */
+public void check(String walletName,String address,double value,String details)
+//待定
